@@ -62,13 +62,16 @@ header{
 	left:0;
 	right:0;
 	text-align:center;
-	z-index:10;
+	z-index:100;
 	animation-name:dropHeader;
 	animation-iteration-count:1;
 	animation-timing-function:ease;
-	animation-duration:0.75s
+	animation-duration:0.75s;
+	position: -webkit-sticky;
+	position: sticky;
 }
 header ul{
+	width: 100%;
 	display:inline-block;
 	background:#fff;
 	text-align:center;
@@ -98,10 +101,10 @@ header a:focus{
 header.active{
 	display:block
 }
-header.sticky{
+/*header.sticky{
 	position:fixed;
 	z-index:999
-	}
+	}*/
 #menu.active{
 	display:block
 }
@@ -239,7 +242,8 @@ header.sticky{
 	text-align:center
 }
 #lead-content h1,#lead-content h2{
-	margin:0
+	margin:0;
+	/*z-index: -5;*/
 }
 #lead-content h1{
 	color:#E6FFF4;
