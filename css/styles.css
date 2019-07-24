@@ -39,7 +39,7 @@ body.active{
 	margin:0 0 15px 0
 }
 
-.no-js #experience-timeline>div p{color:#74808a;
+.no-js #experience-timeline>div p{color:#2e4d3f;
 	font-size:0.9em;
 	margin:0
 }
@@ -82,7 +82,7 @@ header li{
 }
 header a{
 	display:block;
-	color:#3498db;
+	color:#4D8069;
 	padding:10px
 }
 header a:hover{
@@ -92,8 +92,8 @@ header a:hover{
 	border-radius:4px
 }
 header a:focus{
-	color:#3498db;
-		text-decoration:none
+	color:#4D8069;
+	text-decoration:none
 	}
 header.active{
 	display:block
@@ -111,7 +111,7 @@ header.sticky{
 	position:fixed;
 	right:15px;
 	top:10px;
-	color:#3498db;
+	color:#4D8069;
 	font-size:1.5em;
 	z-index:20;
 	padding:0 7px;
@@ -127,7 +127,7 @@ header.sticky{
 	padding-right:15px;
 	padding-top:10px;
 	cursor:pointer;
-	color:#3498db
+	color:#4D8069
 }
 #mobile-menu-close span{
 	font-size:0.5em;
@@ -142,7 +142,7 @@ header.sticky{
 	padding-top:20px
 	}.copyright p{
 	margin:0;
-	color:#74808a
+	color:#2e4d3f
 	}
 .top{
 	text-align:center
@@ -158,7 +158,7 @@ header.sticky{
 	text-align:center
 }
 .top i{
-	color:#74808a
+	color:#2e4d3f
 }
 .social{
 	text-align:right
@@ -174,11 +174,11 @@ header.sticky{
 }
 .social a{
 	display:block;
-	color:#74808a;
+	color:#86958e;
 	padding:10px
 }
 .social a:hover{
-	color:#3498db
+	color:#4D8069
 }
 .btn-rounded-white{
 	display:inline-block;
@@ -189,7 +189,7 @@ header.sticky{
 	transition:.5s ease all
 }
 .btn-rounded-white:hover{
-	color:#3498db;
+	color:#4D8069;
 	background:#fff;
 	text-decoration:none
 }
@@ -215,7 +215,7 @@ header.sticky{
 	left:0;
 	right:0;
 	margin:0 auto;
-	background:#3498db
+	background:#4D8069
 }
 .background-alt{
 	background:#f2f2f5
@@ -242,7 +242,7 @@ header.sticky{
 	margin:0
 }
 #lead-content h1{
-	color:#fff;
+	color:#E6FFF4;
 	font-weight:900;
 	font-size:5em;
 	text-transform:uppercase;
@@ -250,7 +250,7 @@ header.sticky{
 	line-height:0.9em
 }
 #lead-content h2{
-	color:#a0cfee;
+	color:#4D8069;
 	font-weight:500;
 	font-size:2.25em;
 	margin-bottom:15px
@@ -263,7 +263,7 @@ header.sticky{
 	right:0;
 	bottom:0;
 	left:0;
-	background:rgba(33,125,187,0.8);
+	background:rgba(189,209,200,0.8);
 	z-index:1
 }
 #lead-down{
@@ -274,7 +274,7 @@ header.sticky{
 	text-align:center;
 	z-index:10;
 	bottom:15px;
-	color:#fff
+	color:#E6FFF4
 }
 #lead-down span{
 	cursor:pointer;
@@ -308,7 +308,7 @@ header.sticky{
 	color:#374054
 }
 #about p{
-	color:#74808a;
+	color:#86958e;
 	margin:0
 	}
 #experience{
@@ -333,7 +333,7 @@ header.sticky{
 	right:auto;
 	height:100%;
 	width:3px;
-	background:#3498db;
+	background:#4D8069;
 	z-index:0
 }
 #experience-timeline:after{
@@ -341,14 +341,14 @@ header.sticky{
 	content:'';
 	width:3px;
 	height:40px;
-	background:#3498db;
-	background:linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
+	background:#4D8069;
+	background:linear-gradient(to bottom, #4D8069, rgba(52,152,219,0));
 	top:100%;
 	left:303px
 }
 .vtimeline-content{
 	margin-left:350px;
-	background:#fff;
+	background:#E6FFF4;
 	border:1px solid #e6e6e6;
 	padding:15px;
 	border-radius:3px;
@@ -368,7 +368,7 @@ header.sticky{
 	margin:0 0 15px 0
 }
 .vtimeline-content p{
-	color:#74808a;
+	color:#86958e;
 	font-size:0.9em;
 	margin:0
 }
@@ -380,10 +380,10 @@ header.sticky{
 }
 .vtimeline-icon{
 	position:relative;
-	color:#fff;
+	color:#E6FFF4;
 	width:50px;
 	height:50px;
-	background:#3498db;
+	background:#4D8069;
 	border-radius:50%;
 	float:left;
 	z-index:99;
@@ -417,7 +417,8 @@ header.sticky{
 	margin:0 auto 30px auto;
 	padding:15px;
 	border:1px solid #dcd9d9;
-	text-align:left
+	text-align:left;
+	background-color: #bbccc3;
 }
 .education-block h3{
 	font-weight:500;
@@ -426,18 +427,18 @@ header.sticky{
 	color:#374054
 }
 .education-block span{
-	color:#74808a;
+	color:#86958e;
 	float:right
 	}
 .education-block h4{
-	color:#74808a;
+	color:#2e4d3f;
 	clear:both;
 	font-weight:500;
 	margin:0 0 15px 0
 }
 .education-block p,.education-block ul{
 	margin:0;
-	color:#74808a;
+	color:#2e4d3f;
 	font-size:0.9em
 }
 .education-block ul{
@@ -457,8 +458,11 @@ header.sticky{
 	max-width:900px;
 	margin:0 auto 30px auto;
 	overflow:hidden;
-	background:#fff;
+	background:#E6FFF4;
 	border-radius:4px
+}
+.project a {
+	color: #4d8069; 
 }
 .project-image{
 	float:left;
@@ -466,6 +470,7 @@ header.sticky{
 	}
 .project-image img{
 	width: 300px;
+	padding: 10px;
 	/*height: 300px;*/
 }
 .project-info{
@@ -482,7 +487,7 @@ header.sticky{
 	margin:0 0 15px 0
 }
 .project-info p{
-	color:#74808a;
+	color:#2e4d3f;
 	margin:0 0 15px 0;
 	font-size:0.9em
 }
@@ -514,19 +519,19 @@ header.sticky{
 	margin:7px;
 	padding:5px 10px;
 	color:#374054;
-	background:#e4e4ea;
+	background:#bdd1c8;
 	list-style:none;
 	cursor:default;
 	font-size:1.2em
 }
 #contact{
 	padding:50px 15px;
-	background:#3498db;
+	background:#4D8069;
 	text-align:center
 }
 #contact h2{
 	margin:0 0 15px 0;
-	color:#fff;
+	color:#E6FFF4;
 	font-weight:500
 }
 #contact-form{
@@ -540,23 +545,23 @@ header.sticky{
 	border-radius:4px;
 	border:none;
 	margin-bottom:10px;
-	background:#1d6fa5;
-	color:#fff;
+	background:#7acca7;
+	color:#E6FFF4;
 	transition:.5s ease all
 }
 #contact-form input::-webkit-input-placeholder,#contact-form textarea::-webkit-input-placeholder{
-	color:#fff
+	color:#73807A
 }
 #contact-form input:-moz-placeholder,#contact-form textarea:-moz-placeholder{
-	color:#fff;
+	color:#E6FFF4;
 	opacity:1
 	}
 #contact-form input::-moz-placeholder,#contact-form textarea::-moz-placeholder{
-	color:#fff;
+	color:#E6FFF4;
 	opacity:1
 	}
 #contact-form input:-ms-input-placeholder,#contact-form textarea:-ms-input-placeholder{
-	color:#fff
+	color:#E6FFF4
 }
 #contact-form input:focus,#contact-form textarea:focus{
 	outline:none;
@@ -569,11 +574,11 @@ header.sticky{
 #contact-form button{
 	display:block;
 	width:100%;
-	background:#fff;
+	background:#E6FFF4;
 	border-radius:4px;
 	padding:5px 10px;
 	border:none;
-	color:#3498db;
+	color:#4D8069;
 	font-weight:700;
 	box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
 	transition:.5s ease all
@@ -603,14 +608,14 @@ header.sticky{
 	color:#374054
 }
 .optional-section-block h4{
-	color:#74808a;
+	color:#2e4d3f;
 	clear:both;
 	font-weight:500;
 	margin:0 0 15px 0
 }
 .optional-section-block p,.optional-section-block ul{
 	margin:0 0 15px 0;
-	color:#74808a;
+	color:#2e4d3f;
 	font-size:0.9em
 }
 .optional-section-block ul{
